@@ -145,13 +145,6 @@ nav button {
 }
 
 /* ========================= HEADER =================*/
-header {
-    position: relative;
-    top: 5rem;
-    overflow: hidden;
-    height: 70vh;
-    margin-bottom: 5rem;
-}
 
 .header__container {
     display: grid;
@@ -159,6 +152,7 @@ header {
     align-items: center;
     gap: 5rem;
     height: 100%;
+    margin-top: 5rem;
 }
 
 .header__left p {
@@ -169,6 +163,7 @@ header {
 .categories {
     background: var(--color-bg1);
     height: 32rem;
+    margin-top: 5rem;
 }
 
 .categories h1 {
@@ -562,8 +557,9 @@ footer ul li a:hover {
 
     .header__container {
         grid-template-columns: 1fr;
+        gap: 1rem;
         text-align: center;
-        margin-top: 0;
+        margin-top: 5rem;
     }
 
     .header__left p {
